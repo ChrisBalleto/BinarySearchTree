@@ -11,7 +11,7 @@ namespace BinarySearchTree
         T value;
         Node<T> right;
         Node<T> left;
-        List<string> nodePath;
+        public List<string> nodePath;
 
         public Node (T value)
         {
